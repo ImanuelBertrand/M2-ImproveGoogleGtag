@@ -10,8 +10,8 @@
         }
     ],
     "require": {
-        "php": "~7.4.0",
-        "magento/module-google-gtag": "^101.0.0"
+        "php": "~7.4.0||~8.1.0",
+        "magento/module-google-gtag": "^100.4.0"
     },
     "autoload": {
         "files": [
