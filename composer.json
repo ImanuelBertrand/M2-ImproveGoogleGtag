@@ -1,0 +1,24 @@
+{
+    "name": "ibertrand/improve-google-gtag",
+    "type": "magento2-module",
+    "description": "Fixes the Google Analytics4 implementation in Magento_GoogleGtag",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Imanuel Bertrand",
+            "email": "your-email@example.com"
+        }
+    ],
+    "require": {
+        "php": "~7.4.0",
+        "magento/module-google-gtag": "^101.0.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ibertrand\\ImproveGoogleGtag\\": ""
+        }
+    }
+}
